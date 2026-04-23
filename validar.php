@@ -21,7 +21,7 @@ $result = $conn->query($sql);
 
 if ($result->num_rows == 1) {
  // Inicio de sesión exitoso
-header('Location:inicio.html');
+header('Location:huerta.html');
 exit;
 } 
 else
